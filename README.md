@@ -1,2 +1,3 @@
-# Google_Tasks_CSharp
- Acceso a Google Tasks con C Sharp de Visual Studio .Net
+Cómo acceder a las tareas (Google Tasks) de las cuentas de correo electrónico de Google Workspace, mediante el lenguaje de programación C#, de Visual Studio .NET. Indicamos los requisitos (cómo crear un proyecto Google Cloud, habilitar uso de Google Tasks API, crear claves de autorización, crear cliente API y permisos de OAuth, etc.). Mostramos un ejemplo completo en código C# que obtiene la lista de tareas, la tareas de cada lista y permite insertar nuevas tareas, nuevas listas, eliminar tareas y completar tareas. Más información en: https://proyectoa.com/acceso-a-google-tasks-con-c-sharp-de-visual-studio-net/
+
+![image](https://github.com/user-attachments/assets/7174b33f-8ad6-4ce3-ad5c-f36886ecd157)
