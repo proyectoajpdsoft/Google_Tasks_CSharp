@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>tasks2.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Tasks.v1" Version="1.68.0.3435" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="D:\ProyectoA_CSharp\ProyectoAGoogleTasksAPI\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="tasks2.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="D:\ProyectoA_CSharp\ProyectoAGoogleTasksAPI\.editorconfig" />
+  </ItemGroup>
+
+</Project>
